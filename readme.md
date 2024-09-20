@@ -3,6 +3,9 @@ test
 react virtual dom 
 Link :https://github.com/acdlite/react-fiber-architecture
 
+virtual Dom :
+The virtual DOM (VDOM) is a programming concept where an ideal, or “virtual”, representation of a UI is kept in memory and synced with the “real” DOM by a library such as ReactDOM
+
 The key points are:
 
 1)In a UI, it's not necessary for every update to be applied immediately; in fact, doing so can be wasteful, causing frames to drop and degrading the user experience.
