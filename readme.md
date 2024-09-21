@@ -16,7 +16,7 @@ The key points are:
 
 Props In React :
 -the props are a type of object where the value of attributes of a tag is stored. The word “props” implies “properties”.
- -props, or properties, are objects that pass data from one component to anothe
+-props, or properties, are objects that pass data from one component to another
 1)Props are used to pass data between components in a ReactJS application.
 
 2) Props are passed in a unidirectional flow from parent to child component.
