@@ -21,7 +21,7 @@ Props In React :
 
 2) Props are passed in a unidirectional flow from parent to child component.
 
-3) Props are passed in a unidirectional flow from parent to child component.
+3)  Props are similar to HTML attributes, but can pass any JavaScript value, including objects, arrays, and functions
 
 4)Props data is read-only, so child components can't change data from the parent component.
 
