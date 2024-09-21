@@ -14,4 +14,16 @@ The key points are:
 
 3)A push-based approach requires the app (you, the programmer) to decide how to schedule work. A pull-based approach allows the framework (React) to be smart and make those decisions for you.
 
+Props In React :
+-the props are a type of object where the value of attributes of a tag is stored. The word “props” implies “properties”.
+ -props, or properties, are objects that pass data from one component to anothe
+1)Props are used to pass data between components in a ReactJS application.
+
+2) Props are passed in a unidirectional flow from parent to child component.
+
+3) Props are passed in a unidirectional flow from parent to child component.
+
+4)Props data is read-only, so child components can't change data from the parent component.
+
+
 ```
