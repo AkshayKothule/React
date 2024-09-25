@@ -32,7 +32,8 @@ Props In React :
 ``` javascript
 
 
-The React Router is a JavaScript library that helps developers manage routing in React applications.It enables developers to create complex navigation structures, manage different URL paths, and render specific components based on the current route.
+The React Router is a JavaScript library that helps developers manage routing in React applications.
+It enables developers to create complex navigation structures, manage different URL paths, and render specific components based on the current route.
 
 React Router's role: This library is invaluable for managing routing in both SPA and MPA architectures, providing a consistent and efficient way to navigate between different components or pages.
 
