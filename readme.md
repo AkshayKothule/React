@@ -27,3 +27,35 @@ Props In React :
 
 
 ```
+
+## React Router
+``` javascript
+
+
+The React Router is a JavaScript library that helps developers manage routing in React applications.It enables developers to create complex navigation structures, manage different URL paths, and render specific components based on the current route.
+
+React Router's role: This library is invaluable for managing routing in both SPA and MPA architectures, providing a consistent and efficient way to navigate between different components or pages.
+
+SPA: A single HTML page is loaded initially, and subsequent interactions update the page dynamically without requiring full reloads.
+MPA: Multiple HTML pages are loaded as needed, each representing a distinct view or resource.
+
+const router=createBrowserRouter(
+  createRoutesFromElements(
+    <Route path='/' element={<Layout/>}>
+      <Route path='' element={<Home/>}/>
+      <Route path='about' element={<About/>}/>
+      <Route path='contact' element={<Contact/>}/>
+      <Route path='user:/userid' element={<User/>}/>
+      <Route 
+      loader={githubInfoLoader}
+      path='github' 
+      element={<Github/>}
+      />
+
+    </Route>
+  )
+)
+
+
+
+```
